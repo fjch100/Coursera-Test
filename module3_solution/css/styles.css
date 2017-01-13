@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #b0c1e8;
+  font-family: 'Oxygen', sans-serif;
+}
+
+*{
+	
+}
+#header-nav {
+	
+	background-color: #325fc9;
+	border-radius: 0px;
+	border: 0px;
+	height: 100px;
+}
+.navbar .navbar-default .navbar-fixed-top {
+	margin-bottom: 200px;
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+	font-size: 2em;
+	padding-top: 35px;
+}
+.navbar-default .navbar-brand:hover{
+	color: #000;
+}
+	
+#menu-header {
+	color :black;
+	font-size: 2.5em;
+	margin-bottom: 80px;
+	margin-top: 200px
+}
+.menu-options{
+	
+}
+
+.header-item {
+	background-color: black;
+	height: 50px;
+	padding-top: 10px;
+	font-size: 1.8em;
+}
+
+.home-tiles{
+	background-color: #3462ad;
+}
+p{
+	padding: 10px;
+	text-align: justify;
+}
+
+.btop{
+	color: #000;
+	font-weight: bold;
+
+}
+
+button.navbar-toggle, .icon-bar {
+  border: 1px solid #000;
+}
+ button.navbar-toggle {
+  clear: both;
+  background-color: grey;
+  border: 1px solid #fff;
+}
+
+ button.navbar-toggle:hover {
+ 	background-color: #f2f6f7;
+}
+
+#nav-list {
+  margin-top: 50px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+  background-color: #23872e;
+  font-weight: bold;
+  width: 100%;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+@media(max-width: 768px){
+
+	#menu-header {
+	margin-bottom: 100px;
+	margin-top: 220px
+	}
+}
